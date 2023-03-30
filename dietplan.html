@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutroFit | Diet Plans</title>
+    <link rel="stylesheet" href="dietplan_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@100;400&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Code+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="dietplan.js"></script>
+</head>
+
+<body>
+    <div class="card-swiper">
+        <img class="bg" src="BG7.jpg">
+        <header class="head">
+            <div class="logotext">
+                <a href="home.html"><img class="logo" src="logo_i.png" alt="logo"></a>
+                <div class="nf">
+                    <h1>
+                        NutroFit
+                    </h1>
+                </div>
+            </div>
+            <div class="allbuts">
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="exercise_home.html">Exercises</a></li>
+                        <li><a href="nutrition_home.html">Nutrition</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <p class="text">
+            DESCRIPTION OF ALL DIET PLANS
+        </p>
+        <div class="card-groups">
+            <div class="card-group" data-index="0" data-status="active">
+                <div class="big-card card">
+                    <img src="balanced.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="1" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="weight_loss.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="2" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="muscle_gain.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="3" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="weight_gain.png">
+                </div>
+
+            </div>
+        </div>
+        <div class="card-swiper-buttons">
+            <button id="left-button" onclick="handleLeftClick()">
+                <img src="left-arrow.png">
+            </button>
+            <button id="love-button" onclick="handleRightClick()">
+                <img src="right-arrow.png">
+            </button>
+        </div>
+        <button id="test" class="info" onclick="moreInfo()">Show More Information</button>
+        <div class="infobelow">
+            <div class="mydiv" data-index="0" data-status="unknown">
+                <h2>
+                    THE BALANCED DIET PLAN
+                </h2>
+                <p>
+                    A balanced diet meal plan is essential for achieving and maintaining a healthy lifestyle. It is a
+                    plan that includes all the necessary nutrients, vitamins, and minerals required by the body to
+                    function correctly. We have developed a balanced diet
+                    meal plan that caters to individuals' unique nutritional needs. You will find below the nutritional
+                    details of the major nutrients in this meal plan :
+                </p>
+                <table border="1px solid white" cellpadding="20" cellspacing="0">
+                    <tr>
+                        <th>Calories</th>
+                        <th>Carbohydrates (g) </th>
+                        <th>Protein (g)</th>
+                        <th>Fats (g)</th>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>300</td>
+                        <td>65</td>
+                        <td>60</td>
+                    </tr>
+                </table>
+                <p style="margin-bottom: 50px;">
+                    The meals and snacks in this diet plan feature heart-healthy foods recommended for a cardiac diet,
+                    like fiber-rich fruits, vegetables and whole grains, lean protein and fats like olive oil and omega
+                    fatty acids. Saturated fat, added sugars and
+                    sodium are kept to a minimum and instead,
+                    dishes can be seasoned with lots of herbs and spices to keep things flavorful and exciting. With
+                    this
+                    simple meal plan, you'll have healthy meals for the week easily.<br>
+                    <br>
+                    The Nutrofit meal plan is designed to help individuals achieve their health goals by providing them
+                    with healthy and delicious meal options that are rich in essential nutrients. The meal plan is
+                    carefully crafted by certified nutritionists to ensure that it meets all the nutritional
+                    requirements of the body while being low in calories and high in fiber.<br>
+                    <br>
+                    With our balanced diet meal plan, individuals can be confident that they are getting the
+                    right balance of carbohydrates, proteins, and fats that their body needs to function at its best.
+                    The meal plan also includes a variety of fruits, vegetables, whole grains, and lean protein sources
+                    that are necessary for maintaining optimal health.
+                    This balanced diet meal plan is an excellent way to achieve optimal health and
+                    wellness. By following this meal plan, individuals can enjoy delicious and nutritious meals while
+                    reaching their health goals.
+                </p>
+            </div>
+            <div class="mydiv" data-index="1" data-status="unknown">
+                <h2>
+                    THE WEIGHT LOSS DIET PLAN
+                </h2>
+                <p>If you're looking to lose weight, a balanced diet that is also calorie-controlled is key. The above
+                    weight loss meal plan is designed to provide you with the right balance of nutrients while also
+                    helping you achieve your weight loss goals.It is also equally important to ensure that the calories
+                    you
+                    are consuming are nutrient-dense and provide the necessary vitamins, minerals, and macronutrients
+                    your body needs to function properly Some major nutritional information regarding our meal
+                    plan is given below : </p>
+                <table border="1px solid white" cellpadding="20" cellspacing="0">
+                    <tr>
+                        <th>Calories</th>
+                        <th>Carbohydrates (g) </th>
+                        <th>Protein (g)</th>
+                        <th>Fats (g)</th>
+                    </tr>
+                    <tr>
+                        <td>1200</td>
+                        <td>135</td>
+                        <td>105</td>
+                        <td>45</td>
+                    </tr>
+                </table>
+                <p style="margin-bottom: 50px;">
+                    No single food provides all the calories and nutrients that the body needs to stay healthy.
+
+                    That is why a balanced diet consisting of macronutrients like carbohydrates, protein, and fat along
+                    with micronutrients such as vitamins and minerals, is recommended.
+
+                    The best diet for weight loss is a combination of the five major food groups – fruits and
+                    vegetables, cereals and pulses, meat and dairy products, and fats and oils.<br>
+                    <br>
+                    Our weight loss meal plan includes a variety of whole foods, including lean proteins, whole grains,
+                    and plenty of fruits and vegetables. Each meal is carefully portioned and balanced to help you meet
+                    your daily caloric needs and keep you feeling full and satisfied throughout the day. We also
+                    incorporate healthy fats into our meals to provide sustained energy and support overall health.<br>
+                    <br>
+                    We understand that weight loss can be challenging, and that's why our meal plan is tailored to meet
+                    your unique needs and preferences. Our team of nutrition experts has carefully crafted a meal plan
+                    that is not only delicious but also provides the right amount of calories and nutrients to help you
+                    shed those extra pounds. You can rest assured that you're getting the right nutrients and support to
+                    achieve your weight loss goals while still enjoying delicious and satisfying meals.<br>
+                    <br>
+                </p>
+            </div>
+            <div class="mydiv" data-index="2" data-status="unknown">
+                <h2>
+                    THE MUSCLE GAIN DIET PLAN
+                </h2>
+                <p>
+                    If you're looking to build muscle, then nutrition is just as important as your workouts. Eating the
+                    right foods at the right time can help you fuel your body for growth and recovery, and maximize your
+                    muscle-building potential. Our meal plan is designed to provide you with the nutrients you need to
+                    support muscle growth while also helping you maintain a healthy weight.Here's a table comprising of
+                    the major nutrients present in the plan that
+                    are essential for this type of diet :
+                </p>
+                <table border="1px solid white" cellpadding="20" cellspacing="0">
+                    <tr>
+                        <th>Calories</th>
+                        <th>Carbohydrates (g) </th>
+                        <th>Protein (g)</th>
+                        <th>Fats (g)</th>
+                    </tr>
+                    <tr>
+                        <td>3450</td>
+                        <td>510</td>
+                        <td>300</td>
+                        <td>70</td>
+                    </tr>
+                </table>
+                <p style="margin-bottom: 50px;">
+                    When it comes to building muscle, protein is an essential component of your diet. Our meal plan
+                    includes high-quality sources of protein such as lean meats, fish, eggs, and plant-based options
+                    such as tofu, beans, and lentils. These protein sources provide your body with the amino acids
+                    needed for muscle growth and repair.
+                    In addition to protein, our meal plan also emphasizes the importance of carbohydrates. Carbs provide
+                    your body with the energy it needs to power through intense workouts, as well as helping to
+                    replenish glycogen stores in your muscles after exercise. Our meal plan includes healthy sources of
+                    carbs such as fruits, vegetables, whole grains, and starchy vegetables.<br>
+                    <br>
+                    Healthy fats are also an important part of a muscle gain meal plan. Fats are necessary for hormone
+                    production and can help reduce inflammation, which is crucial for muscle recovery. Our meal plan
+                    includes healthy sources of fats such as nuts, seeds etc. Our meal plan emphasizes the importance of
+                    nutrient timing. Consuming the right nutrients at the right time can help optimize muscle growth and
+                    repair.Consuming a post-workout meal that includes protein and carbs can help
+                    jumpstart the muscle recovery process.<br>
+                    <br>
+                    Our muscle gain meal plan is tailored to your individual needs and goals. Our team of
+                    nutrition experts will work with you to create a meal plan that supports your muscle gain goals
+                    while also promoting overall health and wellness.
+                    In conclusion, a muscle gain meal plan is essential for anyone looking to build muscle mass.
+                    Nutrofit's meal plan emphasizes the importance of protein, carbs, healthy fats, hydration, and
+                    nutrient timing to support muscle growth and recovery. With our customized approach, we can help you
+                    achieve your muscle gain goals in a sustainable and healthy way.
+                </p>
+            </div>
+            <div class="mydiv" data-index="3" data-status="unknown">
+                <h2>
+                    THE WEIGHT GAIN DIET PLAN
+                </h2>
+                <p>
+                    We understand the challenges that come with gaining weight, and that's why we've developed a meal
+                    plan
+                    specifically designed to help you reach your weight gain goals. Our weight gain meal plan is
+                    carefully crafted to provide the right balance of macronutrients and calories to promote healthy
+                    weight gain and muscle growth. it is essential to understand that it is not just about consuming
+                    more calories. It's important to focus on nutrient-dense foods that will support your overall
+                    health, such as whole grains, lean proteins, healthy fats, and fruits and vegetables. Below is a
+                    list
+                    of the major nutrients in the diet :
+                </p>
+                <table border="1px solid white" cellpadding="20" cellspacing="0">
+                    <tr>
+                        <th>Calories</th>
+                        <th>Carbohydrates (g) </th>
+                        <th>Protein (g)</th>
+                        <th>Fats (g)</th>
+                    </tr>
+                    <tr>
+                        <td>3000</td>
+                        <td>450</td>
+                        <td>250</td>
+                        <td>110</td>
+                    </tr>
+                </table>
+                <p style="margin-bottom: 50px;">
+                    Our weight gain meal plan takes all of this into account and provides you with a variety of healthy
+                    and delicious foods that are high in calories and essential nutrients. Our plan includes three main
+                    meals and some snacks per day, ensuring you have consistent fuel throughout the day to support your
+                    weight gain goals.The main meals consist of a balance of macronutrients to ensure you are consuming
+                    enough protein,
+                    carbohydrates, and healthy fats. These meals include options like grilled chicken or fish with brown
+                    rice and steamed vegetables, lentil soup with whole-grain bread, and quinoa and vegetable stir-fry
+                    with tofu.<br>
+                    <br>
+                    The snacks are also essential in supporting your weight gain goals, and they are all high in
+                    calories and protein. They might include options like peanut butter on whole-grain toast, Greek
+                    yogurt
+                    with mixed berries and granola, and a protein smoothie with almond milk, banana, and peanut butter.
+                    It's important to note that our weight gain meal plan is not just about consuming more calories than
+                    you
+                    burn. We encourage incorporating physical activity into your daily routine, such as weight lifting
+                    and
+                    resistance training, to support muscle growth and healthy weight gain.<br>
+                    <br>
+                    we understand that gaining weight can be challenging, especially if you have a fast metabolism or
+                    struggle with appetite. That's why our weight gain meal plan includes nutrient-dense foods that are
+                    high in calories and healthy fats to support weight gain while also promoting overall health.
+                    In conclusion, our weight gain meal plan is designed to help you reach your weight gain goals in a
+                    healthy and sustainable way. By providing a balance of macronutrients and calorie-dense foods, we
+                    aim to support healthy weight gain and muscle growth while also promoting overall health and
+                    wellness.
+
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

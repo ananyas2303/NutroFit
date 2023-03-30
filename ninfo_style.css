@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.cont {
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.bgn {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.logo_text {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.logo {
+  width: 90px;
+  height: 75px;
+  position: relative;
+  padding-top: 15px;
+}
+
+.nf {
+  margin-top: 35px;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: white;
+  font-family: "audiowide";
+  position: relative;
+}
+
+.content h1 {
+  font-family: "audiowide";
+  text-align: center;
+  font-size: 65px;
+  position: relative;
+  color: white;
+  letter-spacing: 0.3rem;
+  margin-top: 25px;
+  margin-bottom: 70px- 25px;
+  margin-bottom: 70px;
+}
+
+.block1 p {
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  z-index: 100;
+  position: relative;
+}
+
+.brea {
+  position: relative;
+  width: 550px;
+  height: 400px;
+  align-items: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.block1 {
+  display: flex;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+  .block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .block1 p {
+    font-size: 20px;
+    margin: 2px;
+  }
+
+  .brea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 200px;
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 100, 100, 1);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
